@@ -1,0 +1,233 @@
+html {
+    width:100%;
+    height: 100%;
+    background-color: #30b8aa;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(../images/light-sharp-edges.png);
+}
+.tallyBkg {
+    background-color: #69d8c7;
+}
+
+.tallyNumbers {
+    color: #fff;
+    font-size: 125px;
+    font-family: 'anonymous';
+    line-height: 1.7;
+}
+
+.icon {
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    color: rgba(0, 0, 0, .4);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.iconBig {
+    padding: 28px 25px 35px 35px;
+    font-size: 100px;
+    color: rgba(0, 0, 0, .4);
+    border-radius: 100%;
+}
+
+.textVert {
+    vertical-align: middle;
+}
+
+
+
+
+
+.iconGrey {
+    background-color: #adadad;
+}
+
+.iconNone {
+    background-color: none;
+}
+
+.margTopNeg {
+    margin-top: -45px;
+}
+
+.iconGreen {
+    background-color: #30b8aa;
+}
+
+.iconOffset {
+    padding: 16px 18px 17px 15px;
+}
+
+.top-offset-75 {
+    margin-top:75px;
+}
+
+.top-offset-55 {
+    margin-top:15px;
+}
+
+.iconRed {
+    background-color: #fd645f;
+}
+
+.numEdit {
+    position: relative;
+    width: 100%;
+    top: -35px;
+    border: none;
+    background: none;
+    font-size: 50%;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.icon-sm {
+    position: relative;
+    top: -45px;
+    padding: 0;
+    font-size: 35px;
+    color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+
+.editScreen {
+    display: none;
+}
+
+*:focus {
+    outline: 0;
+}
+.alert {
+    margin-top: 25px;
+}
+
+.alert .smFont {
+    font-size: 85%;
+}
+
+.kbWrapper {
+    position: absolute;
+    width: 100%;
+    bottom: -75%;
+    font-family: anonymous;
+    font-size: 35px;
+    background-color: #69d8c7;
+    color: #fff;
+}
+
+.key {
+    position: relative;
+    padding: 20px;
+    width:33.3%;
+    float: left;
+    text-align: center;
+}
+
+
+#typed-cursor {
+    font-family: ;
+    color: #fff;
+}
+	 
+	.slogan {
+	color: #2E3D48;
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	margin: -60px 0 0 0;
+	display: block;
+	width: 100%;
+}
+
+
+
+#typed-cursor.blinking {
+  -webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+    color: #fff;
+ }
+
+}
+
+@-moz-keyframes blink {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: #fff;
+ }
+
+}
+
+@-webkit-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: #fff;
+ }
+
+}
+
+@-ms-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: #fff;
+ }
+
+}
+
+@-o-keyframes "blink" {
+	from,to {
+	color: transparent;
+}
+ 50% {
+   color: #fff;
+ }
+}
+
+
+
+
+.key-fifty {
+    width: 50%;
+}
+
+.key-sixty {
+    width: 66.66%;
+}
+
+.keyCont {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 540px;
+}
